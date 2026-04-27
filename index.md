@@ -14,11 +14,12 @@ The course should provide a uniform notes document for every lecture because it 
 
 ---
 
-## 3. Data Processing & Methodology
+## 3. Data Analysis
 To analyze this, I used a custom function named "classify" and also utilized other functions to simplify the data and place it into a single table.
 
+* **Data Presentation:** I utilized the selection and head functions in order to choose the specific data columns I needed and preview only the first set of rows.
 * **Categorization:** I used a custom `classify` function to group raw 1-7 scores into three buckets: `Never` (1-2), `Sometimes` (3-5), and `Always` (6-7).
-* **Selection:** I isolated the `own_notes` and `course_difficulty` columns to focus specifically on the correlation between effort and perceived struggle.
+* **Selection:** I isolated the `own_notes` and `course_difficulty` columns to focus specifically on the correlation between student note taking and course difficulty.
 
 ---
 
